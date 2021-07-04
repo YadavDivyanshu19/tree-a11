@@ -210,6 +210,10 @@ persist.vendor.vt.supported=1 \
 persist.vendor.sys.cnd.iwlan=1 \
 persist.vendor.cne.logging.qxdm=3974
 
+#Spectrum
+PRODUCT_PROPERTY_OVERRIDES += \
+   spectrum.support=1
+
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 ro.surface_flinger.protected_contents=true
